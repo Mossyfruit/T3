@@ -1,0 +1,12 @@
+h1{
+    background-color: bisque;
+}
+
+
+.classp1 > nav{
+    background-color: aqua;
+}
+
+.classp2 > nav{
+    background-color: rgb(17, 156, 5);
+}
