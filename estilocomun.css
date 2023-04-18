@@ -1,22 +1,29 @@
-h1{
-    background-color: bisque;
+body{
+    margin: 1em;
+    background-color: beige;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 14px;
 }
 
-
-.classp1 > nav{
-    background-color: aqua;
+.uno {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
 }
 
-.classp2 > nav{
-    background-color: rgb(178, 231, 173);
+.dos{
+    display: flex;
+    justify-content: center;
 }
 
-a{
-    display: inline-block;
-    
-    width: 20vw;
-    max-width: 150px;
-    background-color: lightcoral;
-    margin: 2px;
-    border-radius: 2px;
+.c1{
+width: 25vh;
+height: 25vh;
+background: pink;
+margin-right: 10px;
+align-items: center;
+text-align: center;
+border:solid red 1px;
+justify-content: center;
+display: flex;
 }

@@ -1,29 +1,50 @@
-
 <!DOCTYPE html>
-<!-- autor Ivan Hijano Soler - LLMM - t3 -abril 2023-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3er trimestre - Ivan Hijano Soler</title>
-    <link rel="stylesheet" type="text/css" href="./estilocomun.css">
+    <link rel="stylesheet" href="estilocomun.css" type="text/css">
+    <title>Document</title>
 </head>
-<body class="classp1">
-    <nav class="classp1">
-        <a href="./index.html">P1</a>
-        <a href="./pagina2.html">P2</a>
-        
-    </nav>
-    <button onclick="boton()">Tonto el que clickee</button>
-    <h1>Página 1</h1>
-    <p>Esto es un mensaje realizado para confirmar el commit</p>
+<body>
+    <div class="uno">
+        <div class="c1" id="c1">  <script>  document.write('<br>')
+            var filas,columnas,espacios
+            filas=3;
+            columnas=5;
+            espacios=0;
+            var output='';
+            for(let i=0;i<columnas;i++){
+                espacios++;
+                for(let j=0;j<columnas;j++){
+                    for(let k=25;k>0;k--){
+                    document.write('&nbsp');
+                }
+                    
+                }
+              
+              
+                for (let k=0; k<2*i-1;k++){
+                   
+                    document.write('o');
+                
+            }
+                document.write('<br>');
+            }
+            document.write(output)</script> 
+            </div>
+        <div class="c1" id="c2">2</div>
+    </div>
+    <div class="dos">
+        <div class="c1" id="c3">3</div>
+    </div>
+    <div class="uno">
+        <div class="c1" id="c4">4</div>
+        <div class="c1" id="c5">5</div>
+    </div>
+    <script src="./flex.js">
+
+    </script>
 </body>
-
-<script>
-    function boton(){alert("Hola mundo")}
-        
-
-    
-</script>
 </html>
